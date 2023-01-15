@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto Mono , sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #000000;
+    
+}
+
+
+
+.wrapper { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;   
+    background-color: #0C1821;
+    width: 530px;
+    min-height: 320px;
+    border-radius: 20px;
+}
+
+
+.quote {
+    
+    font-size: large;
+    width: 100%;
+    height: 160px;
+    background-color: #324A5F;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.btn {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #212529;
+    border-radius: 10px;
+    background: #1B2A41;
+  }
+  .btn:hover {
+    background: #fff;
+    color: #212529
+  }
